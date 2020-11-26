@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>Mining Arc, Masking Effect - Venezuela</title>
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.17/esri/themes/dark-blue/main.css"
+    />
+    <script src="https://js.arcgis.com/4.17/"></script>
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      #controls {
+        padding: 1em;
+      }
+
+      #sliderDiv {
+        margin-top: 30px;
+        width: 200px;
+      }
+    </style>
+
+<script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+    <div class="esri-widget" id="controls">
+      <h4 class="esri-widget__heading">Halo radius (px)</h4>
+      <div id="sliderDiv"></div>
+    </div>
+  </body>
+</html>
